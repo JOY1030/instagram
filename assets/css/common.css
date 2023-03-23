@@ -1,0 +1,41 @@
+.blind{
+    position: absolute;
+    margin: -1px;
+    width: 1px;height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.inner{
+    padding: 0 100px;
+    max-width: 1650px;
+    margin: 0 auto;
+}
+
+.sc-boom{
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sc-work, .sc-info , .sc-heart{
+    background:#5D26C1;
+}
+.sc-better, .sc-video, .footer{
+    background: #59C173;
+}
+
+@media(max-width:1300px){
+    
+}
+
+@media(max-width:1024px){
+    .inner{
+        padding: 0 60px;
+    }
+}
+
+@media(max-width:767px){
+    .inner{
+        padding: 0 30px;
+    }
+}
