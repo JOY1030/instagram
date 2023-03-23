@@ -260,9 +260,9 @@
 }
 .sc-work .img-wrap{
     position: absolute;
-    top: 120%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-30deg);
+    transform: translateX(-50%) rotate(0deg);
     width: 50vw;
 
 }
@@ -568,7 +568,7 @@
         padding-top: 130px;
     }
     .sc-work .img-wrap{
-        top: 50%;
+        top: 20%;
         left: 50%;
         transform: translate(-50% -50%);
     }

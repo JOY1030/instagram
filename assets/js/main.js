@@ -51,7 +51,7 @@ mm.add("(min-width: 1300px)", () => {
     //    마우스 따라 움직이는 이미지
     let mouse = gsap.matchMedia();
 
-    mouse.add("(min-width: 767px)", () => {
+    mouse.add("(min-width: 1025px)", () => {
       $('.sc-title .img-wrapper').mousemove(function(e){
        x1 = (e.offsetX - window.innerWidth/2)/30;
        y1 = (e.offsetY - window.innerHeight/2)/30;
@@ -113,14 +113,14 @@ mm.add("(min-width: 1300px)", () => {
       thumb.add("(min-width: 1300px)", () => {
         gsap.to('.sc-work .img-wrap',{
             rotation: 20,
-            yPercent:-130,
+            yPercent:-50,
             duration:6,
             scrollTrigger:{
                 trigger:'.sc-work',
-                start:"210% 50%",
-                end:"330% 70%",
+                start:"10% 50%",
+                end:"70% 70%",
                 scrub:1,
-                
+
             }
         })
       });
