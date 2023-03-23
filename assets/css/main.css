@@ -519,6 +519,9 @@
 
 /* 1025까지 */
 @media(max-width:1300px){
+    .start-motion{
+        display: none;
+      }
     .side-menu{
         width: 400px;
     }
@@ -649,6 +652,7 @@
 }
 /* 768까지 */
 @media(max-width:1024px){
+
     .sc-heart .title-box .title{
         font-size: 6em;
     }
@@ -807,9 +811,6 @@
 }
 /* 320까지 */
 @media(max-width:767px){
-    .start-motion{
-      display: none;
-    }
     .side-menu{
         width: 230px;
     }

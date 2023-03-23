@@ -8,7 +8,7 @@ $(function(){
 
 let mm = gsap.matchMedia();
 
-mm.add("(min-width: 767px)", () => {
+mm.add("(min-width: 1300px)", () => {
   const introMotion = gsap.timeline({})
   
   introMotion
@@ -116,7 +116,7 @@ mm.add("(min-width: 767px)", () => {
             yPercent:-130,
             duration:6,
             scrollTrigger:{
-                trigger:'sc-work',
+                trigger:'.sc-work',
                 start:"210% 50%",
                 end:"330% 70%",
                 scrub:1,
